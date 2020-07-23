@@ -1,0 +1,196 @@
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  	.navbar{
+    background-color: black;
+  	}
+  	.navbar-collapse{
+	background-color: black;
+	width: 100%;
+	}
+	.img-left{
+	margin: 0 auto;
+	margin-left: auto !important;
+	
+	}
+	.col-sm-3.horizontal-line{
+    border-right:none;
+	}
+	.col-sm-6.horizontal-line{
+    border-right:none;
+	}
+} 
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+/.navbar-toggler{
+	background-color: #f9461d;
+}
+.navbar .navbar-nav .nav-link{
+	color:white;
+}
+.navbar .navbar-nav .nav-link.active{
+	color:#f9461d;
+}
+.carousel-caption{
+	top: 50%;
+	transform: translateY(-50%);
+	bottom: initial;
+}
+.banner-caption{
+	font-size:3em; 
+	font-family: Montserrat, Helvetica ,sans-serif;
+	font-weight:bolder;
+}
+.banner-text{
+	font-size: 18px;
+	font-family: Montserrat, Helvetica , sans-serif;
+	font-weight: lighter;
+	text-shadow:1px 1px black;
+}
+.btn-banner{
+	background-color:#f9461d;
+	border:2px solid #f9461d;
+	border-radius: 20px;
+	color:white;
+	font-size: 16px;
+	font-weight: lighter;
+}
+.btn-banner:hover{
+	background-color: transparent;
+	transition: background-color .5s;
+}
+.line{
+	background: #f9461d;
+	margin:10px auto;
+	height: 2px;
+	width: 180px;
+	display: block;
+}
+.content{
+	font-family:"open sans";
+}
+.content-info{
+	font-size: 14px;
+	font-weight: bold;
+}
+.card-body{
+	margin-top: 45px;
+}
+.card-img-top{
+	align-self: center;
+	width:80px; 
+	height: 80px;
+	border-radius: 100px; 
+	background-color: white; 
+	text-align: center; 
+	padding: auto; 
+	line-height: 80px; 
+	position: absolute; 
+	top: -40px;
+}
+.card{
+	border:none;
+}
+.card-text{
+	font-size: 14px;
+}
+.slideanim {
+	visibility:hidden;
+}
+.slider {
+  animation-name: slide;
+  animation-duration: 1s; 
+  visibility: visible; 
+}
+@keyframes slide {
+  0%{
+    opacity: 0;
+    transform: translateY(70%);
+  } 
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  } 
+}
+.why{
+	background-image: url(../images/why.jpg);
+	width: 100%;
+	bottom: initial;
+	background-size: cover;
+}
+.why-box{
+	background-color: rgba(255,255,255,.7);
+}
+.img-left{
+	width:55px; 
+	height: 55px;
+	border-radius: 55px; 
+	background-color:#f9461d; 
+	text-align: center; 
+	line-height: 55px; 
+	margin-left: -10%;
+
+	
+}
+.horizontal-line{
+	border-right: 1.5px solid #f9461d;
+}
+.event-link{
+	color:black
+}
+.event-link:hover{
+	color:#f9461d;
+text-decoration:none;
+}
+.event-image:hover{
+  transform: scale(1.1);
+  transition: transform .5s;
+}
+.galleryimage{
+	border: 1px solid white;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.con:hover .event-image {
+  opacity: 0.3;
+}
+
+.con:hover .middle {
+  opacity: 1;
+}
+.subscribe-image{
+	background-image: url(../images/bike.jpg);
+	width: 100%;
+	bottom: initial;
+	background-size: cover;
+}
+.subscribe-box{
+	border-radius: 100px;
+	height: 50px;
+}
+.mapouter{
+	text-align:right;
+	height:100%;
+	width:100%;
+	}
+.gmap_canvas{
+	overflow:hidden;
+	background:none!important;
+	height:100%;
+	width:100%;
+}
+.contact-box{
+	height: 50px;
+}
+.contact-icon{
+	width: 30px;
+}

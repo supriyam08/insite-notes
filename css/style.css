@@ -1,0 +1,70 @@
+@media only screen and (max-width: 768px) {
+
+}
+.navbar .navbar-nav .nav-link{
+	color:white;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.navbar-toggler{
+	background-color: #d27e01;
+}
+.navbar .navbar-nav .dropdown-item{
+	color: white;
+}
+.navbar .navbar-nav .dropdown-menu a:hover{
+	color: black;
+}
+
+.navbar .navbar-nav .nav-item .btn{
+	background-color: #d27e01;
+}
+.modal .modal-dialog .modal-content .nav-tabs .nav-link{
+	color: #d27e01;
+}
+.footers .container a {color:white;}
+.footers p {color: pink;}
+.footers ul {line-height:30px;}
+#social-fb:hover {
+     color: #3B5998;
+     transition:all .001s;
+ }
+ #social-tw:hover {
+     color: #4099FF;
+     transition:all .001s;
+ }
+ #social-gp:hover {
+     color: #d34836;
+     transition:all .001s;
+ }
+ #social-em:hover {
+     color: #f39c12;
+     transition:all .001s;
+ }
+.contact-box{
+    height: 50px;
+}
+.contact-icon{
+    width: 30px;
+}
+.mapouter{
+    position:relative;
+    text-align:right;
+    height:100%;
+    width:100%;
+}
+.gmap_canvas{
+    overflow:hidden;
+    background:none!important;
+    height:100%;
+    width:100%;
+}
+.btn-simple{
+    background-color:#d27e01;
+    border:2px solid #d27e01;
+    border-radius: 20px;
+    color:white;
+    font-size: 16px;
+    font-weight: lighter;
+}
